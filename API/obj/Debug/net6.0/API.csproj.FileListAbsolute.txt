@@ -57,3 +57,6 @@ C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\Core.dll
 C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\Infrastructure.pdb
 C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\Core.pdb
+C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\celik\Desktop\demo\skinet\skinet\API\bin\Debug\net6.0\API.staticwebassets.runtime.json

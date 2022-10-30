@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jgwVXsizIyI3Ry0RAE37rZZu+O7gB0FnIQQBGxb+YD6JpPqzFS7fDXVfBq/slb1iucI7mGSaq5OarQZAaSfu6w==",
+  "dgSpecHash": "rMvx8bv+Dih3CFJlhqDYsWzZMN9G+H1qz6PttLpG5DdI4HvcERTOxGrST11F7RgIjmTeGPIzlxAI7BQAj6Wi/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\celik\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\celik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\celik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",

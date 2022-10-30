@@ -24,7 +24,7 @@ namespace Infrastructure.Data
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
-
+                 
             return await con.Products
              .Include(p => p.ProductType)
             .Include(p => p.ProductBrand)
