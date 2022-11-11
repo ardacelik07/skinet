@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celik\\OneDrive\\Masaüstü\\demo\\skinet\\skinet\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\celik\\OneDrive\\Masaüstü\\demo\\skinet\\skinet\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celik\\OneDrive\\Masaüstü\\demo\\skinet\\skinet\\Core\\obj\\",
+      "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config"

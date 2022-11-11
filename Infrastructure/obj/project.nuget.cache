@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EV4XUr/ZewJEsJtU9GOAOeC8s2faFTSIxzW3czkh9wJ+/VIJC0PTKHwTllFMx6ste5q22LTaCLbH2Vqd9lJYtw==",
+  "dgSpecHash": "HFURs+GmxKEdi9YGuS/Fdmai1SQYpxViPR+Wdvu4BWhEMkhekolaYwk+IacO51iS8gBpMTuuBRb6xN9hGfPGWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\celik\\OneDrive\\Masaüstü\\demo\\skinet\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
