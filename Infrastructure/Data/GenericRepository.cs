@@ -17,10 +17,10 @@ namespace Infrastructure.Data
             cons = con;
         }
 
-        public async Task<T> GetByIdAsync(int id)
+       public async Task<T> GetByIdAsync(int id)
         {
            return await cons.Set<T>().FindAsync(id);
-        }
+        } 
 
      
 

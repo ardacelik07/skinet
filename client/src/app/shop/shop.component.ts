@@ -11,7 +11,7 @@ import { ShopService } from './shop.service';
   styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent implements OnInit, AfterViewInit, OnDestroy {
-  @ViewChild('search') searchTerm:ElementRef;
+  @ViewChild('search', {static:false}) searchTerm:ElementRef;
  products :IProduct[];
  brands:IBrand[];
  types: IType[];
