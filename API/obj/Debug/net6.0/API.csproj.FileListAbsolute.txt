@@ -208,3 +208,8 @@ C:\Users\celik\Desktop\demo\skinet\API\obj\Debug\net6.0\refint\API.dll
 C:\Users\celik\Desktop\demo\skinet\API\obj\Debug\net6.0\API.pdb
 C:\Users\celik\Desktop\demo\skinet\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\celik\Desktop\demo\skinet\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\celik\Desktop\demo\skinet\API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\celik\Desktop\demo\skinet\API\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\celik\Desktop\demo\skinet\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\celik\Desktop\demo\skinet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\celik\Desktop\demo\skinet\API\bin\Debug\net6.0\System.Security.Permissions.dll
