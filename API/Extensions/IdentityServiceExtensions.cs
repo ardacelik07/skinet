@@ -17,6 +17,7 @@ namespace API.Extensions
 
             var builder = services.AddIdentityCore<AppUser>();
             builder = new IdentityBuilder(builder.UserType,builder.Services);
+           
             builder.AddEntityFrameworkStores<AppIdentityDbContext>(); // user managerle calısmasını saglar
             builder.AddSignInManager<SignInManager<AppUser>>();
 
