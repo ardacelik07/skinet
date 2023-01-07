@@ -13,6 +13,7 @@ namespace API.Controllers
     public class BasketController : BaseApiControllers
     {
         private readonly IbasketRepository _basketRepo;
+    
         private readonly IMapper _mapper;
         public BasketController(IbasketRepository basketRepository,IMapper mapper)
         {
@@ -23,6 +24,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<CustomerBasket>> GetBasketById(string id){
             var basket = await _basketRepo.GetBasketAsync(id);
+            
             return Ok(basket ?? new CustomerBasket(id));
         }
         [HttpPost]

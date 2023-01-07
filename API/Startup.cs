@@ -7,6 +7,7 @@ using API.Extensions;
 using API.Helpers;
 using API.Middleware;
 using Core.Interfaces;
+using EmailService;
 using Infrastructure.Data;
 using Infrastructure.Identity;
 using Infrastructure.Services;
@@ -47,6 +48,13 @@ namespace API
                services.AddScoped<IUnıtOfWork,UnitOfWork>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IbasketRepository,basketRepository>();
+            
+            // var EmailConfiguration = _config.GetSection("EmailConfig")
+             //.Get<EmailConfig>();
+             //services.AddSingleton(EmailConfiguration);
+               
+ 
+
              services.AddScoped(typeof(IGenericRepository<>),(typeof(GenericRepository<>)));
              services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
@@ -71,6 +79,9 @@ namespace API
                 
 
              });
+                                                
+
+             
              
              
             

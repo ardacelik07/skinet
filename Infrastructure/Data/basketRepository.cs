@@ -23,7 +23,7 @@ namespace Infrastructure.Data
             return await _database.KeyDeleteAsync(basketId);
            
         }
-
+      
         public async Task<CustomerBasket> GetBasketAsync(string basketId)
         {
             var data = await _database.StringGetAsync(basketId);
@@ -40,5 +40,6 @@ namespace Infrastructure.Data
             return await GetBasketAsync(basket.Id);
 
         }
+        
     }
 }

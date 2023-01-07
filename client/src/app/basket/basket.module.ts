@@ -15,5 +15,6 @@ import { SharedModule } from '../shared/shared.module';
     BasketRoutingModule,
     SharedModule
   ]
+ 
 })
 export class BasketModule { }

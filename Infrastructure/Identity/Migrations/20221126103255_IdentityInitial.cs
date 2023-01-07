@@ -249,6 +249,8 @@ namespace Infrastructure.Identity.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+              
+
         }
     }
 }

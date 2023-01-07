@@ -5,6 +5,10 @@ import { Router } from '@angular/router';
 import { BehaviorSubject, of, ReplaySubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
+import { IAddress } from '../shared/models/address';
+import { forgotPassword } from '../shared/models/forgotPassword';
+import { ResetPassword } from '../shared/models/ResetPassword';
+
 import { IUser } from '../shared/models/user';
 
 @Injectable({
@@ -70,6 +74,8 @@ export class AccountService {
   }
        logout(){
         localStorage.removeItem('token');
+        localStorage.removeItem('basket_id');
+        window.location.reload();
         this.currentUserSource.next(null);
         this.router.navigateByUrl('/');
         
@@ -77,6 +83,21 @@ export class AccountService {
 
        checkEmailExist(email :string){
         return this.http.get(this.baseUrl + 'account/emailexists?email=' +email);
+       }
+       getUserAddress(){
+        return this.http.get<IAddress>(this.baseUrl + 'account/address');
+       }
+
+       updateUserAddress(address: IAddress){
+            
+        return this.http.put<IAddress>(this.baseUrl +'account/address',address);
+       }
+       
+       ForgotPassword(values: forgotPassword){
+        return this.http.post(this.baseUrl + 'account/ForgotPassword',values);
+       }
+       ResetPassword(values: ResetPassword){
+        return this.http.post(this.baseUrl + 'account/ResetPassword',values);
        }
 
 }

@@ -18,8 +18,10 @@ namespace API.Extensions
             var builder = services.AddIdentityCore<AppUser>();
             builder = new IdentityBuilder(builder.UserType,builder.Services);
            
-            builder.AddEntityFrameworkStores<AppIdentityDbContext>(); // user managerle calısmasını saglar
+            builder.AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders(); // user managerle calısmasını saglar
             builder.AddSignInManager<SignInManager<AppUser>>();
+            builder.Services.Configure<DataProtectionTokenProviderOptions>(opt =>
+    opt.TokenLifespan = TimeSpan.FromHours(2));
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>{
