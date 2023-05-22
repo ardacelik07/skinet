@@ -49,9 +49,32 @@ namespace API.Controllers
            var countSpec = new ProductWithFiltersForCountSpecificication(Productparams);
            var totalItems = await ProductsRepos.CountAsync(countSpec);
             var products =  await ProductsRepos.ListAsync(spec);
-            var data =mappers
-            .Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>((IReadOnlyList<Product>)products);
-            return Ok(new Pagination<ProductToReturnDto>(Productparams.PageIndex,Productparams.PageSize,totalItems,data));
+            List<ProductToReturnDto> dto = new  List<ProductToReturnDto>();
+            foreach(var product in products){
+
+                 var obje = new ProductToReturnDto()
+                 {
+                        
+                     Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     Price = product.Price,
+                     PictureUrl = product.PictureUrl,
+                     ProductType =  Convert.ToString(product.ProductTypeId),
+                     ProductBrand = Convert.ToString(product.ProductBrandId),
+
+
+                 };
+                
+                dto.Add(obje);
+                 
+
+            }
+           
+           
+           /* var data =mappers
+            .Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>((IReadOnlyList<Product>)products); */
+            return Ok(new Pagination<ProductToReturnDto>(Productparams.PageIndex,Productparams.PageSize,totalItems,dto));
         }
 
         [HttpGet("{id}")]
@@ -63,7 +86,21 @@ namespace API.Controllers
                 var product = await ProductsRepos.GetEntityWithSpec(spec);
                 if(product == null) return NotFound(new ApiResponse(404));
 
-                return mappers.Map<Product, ProductToReturnDto>(product);
+                 var obje = new ProductToReturnDto(){
+                         
+                          Id = product.Id,
+                     Name = product.Name,
+                     Description = product.Description,
+                     Price = product.Price,
+                     PictureUrl = product.PictureUrl,
+                     ProductType =  Convert.ToString(product.ProductTypeId),
+                     ProductBrand = Convert.ToString(product.ProductBrandId),
+
+                  };
+
+               // return mappers.Map<Product, ProductToReturnDto>(product);
+
+               return obje;
         } 
 
          [HttpGet("brands")]

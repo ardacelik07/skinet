@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\API\\API.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj": {
-                "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj"
+              "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj"
               },
-              "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -243,8 +243,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj"
               }
             }
           }
@@ -270,6 +270,10 @@
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.25.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

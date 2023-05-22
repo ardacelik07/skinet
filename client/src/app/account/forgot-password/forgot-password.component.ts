@@ -32,13 +32,13 @@ public forgotPassword = (forgotPasswordFormValue) => {
   const forgotPass = { ...forgotPasswordFormValue };
   const forgotPassDto: forgotPassword = {
     email: forgotPass.email,
-    clientURI: 'http://localhost:4200/authentication/resetpassword'
+    clientURI: 'https://localhost:4200/account/reset-password'
   }
   this.accountService.ForgotPassword(forgotPassDto)
   .subscribe({
     next: (_) => {
     this.showSuccess = true;
-    this.successMessage = 'The link has been sent, please check your email to reset your password.'
+    this.successMessage = 'Şifre yenileme linki başarılı bir sekilde mail adresinize yollandı lütfen kontrol ediniz.'
   },
   error: (err: HttpErrorResponse) => {
     this.showError = true;

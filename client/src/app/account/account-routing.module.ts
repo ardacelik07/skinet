@@ -7,9 +7,9 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 const routes: Routes = [
-  {path:'login',component: LoginComponent},
-  {path:'register',component: RegisterComponent},
-  { path: 'forgot-password', component: ForgotPasswordComponent },
+  {path:'giriş',component: LoginComponent},
+  {path:'kayıt ol',component: RegisterComponent},
+  { path: 'şifremi-unuttum', component: ForgotPasswordComponent },
   { path: 'reset-password', component: ResetPasswordComponent }
 ];
 

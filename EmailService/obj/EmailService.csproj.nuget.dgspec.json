@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj": {}
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",

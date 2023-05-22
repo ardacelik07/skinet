@@ -1,10 +1,11 @@
 <div class="d-flex flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 bg-white border-bottom shadow-sm fixed-top">
-   <img src="/assets/images/logo.png" style="max-height: 70px;" alt="logo" class="logo" routerLink="/">
+   <img src="/assets/images/logo.jpg" style="max-height: 70px;" alt="logo" class="logo" routerLink="/">
 
     <nav class="my-2 my-md-0 mr-md-3 text-uppercase" style="font-size:larger;">
-      <a class="p-2" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
-      <a class="p-2" routerLink="/shop" routerLinkActive="active">Shop</a>
-      <a class="p-2" routerLink="/test-error" routerLinkActive="active">Errors</a>
+      <a class="p-2" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Ana Sayfa</a>
+      <a class="p-2" routerLink="/shop" routerLinkActive="active">Market</a>
+      <a class="p-2" routerLink="/Campains" routerLinkActive="active">Kampanyalar</a>
+      <a class="p-2" routerLink="/yorumlar" routerLinkActive="active">Yorumlar</a>
     </nav>
     <div class="d-flex align-items-center">
         <a routerLink="/basket" class="position-relative">
@@ -12,28 +13,25 @@
             <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
         </a>
         <ng-container *ngIf="(currentUser$ | async) === null">
-          <a  routerLink="/account/login"  class="btn btn-outline-secondary mr-2">Login</a>
-          <a   routerLink="/account/register" class="btn btn-outline-primary mr-3">Sign up</a>
+          <a  routerLink="/account/giriş"  class="btn btn-outline-secondary mr-2">Giriş Yap</a>
+          <a   routerLink="/account/kayıt ol" class="btn btn-outline-primary mr-3">Kayıt ol</a>
 
         </ng-container>
         <ng-container *ngIf="currentUser$ | async">
                <div class="dropdown ml-3 mr-5" dropdown>
 
                 <a class="dropdown-toggle" style="cursor: pointer" dropdownToggle>
-                 <strong>Welcome {{(currentUser$ | async).displayName}}</strong>        
+                 <strong>Hoşgeldin {{(currentUser$ | async).displayName}}</strong>        
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" style="cursor: pointer;" *dropdownMenu>
                 <a routerLink="/basket" class="dropdown-item d-flex align-items-center py-2">
-                  <i class="fa fa-shooping-cart mr-3">View Basket</i>
+                  <i class="fa fa-shooping-cart mr-3">Basket</i>
 
                 </a>
-                <a routerLink="/order" class="dropdown-item d-flex align-items-center py-2">
-                  <i class="fa fa-history mr-3">View Orders</i>
-
-                </a>
+               
                 <div class="dropdown-divider"></div>
                 <a  (click)="logout()" class="dropdown-item d-flex align-items-center py-2">
-                  <i class="fa fa-sign-out mr-3">Logout</i>
+                  <i class="fa fa-sign-out mr-3">Çıkış yap</i>
 
                 </a>
                

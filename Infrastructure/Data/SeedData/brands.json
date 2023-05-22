@@ -1,26 +1,26 @@
 [
   {
     "Id": 1,
-    "Name": "Angular"
+    "Name": "Usta Dönerci"
   },
   {
     "Id": 2,
-    "Name": "NetCore"
+    "Name": "Burger King"
   },
   {
     "Id": 3,
-    "Name": "VS Code"
+    "Name": "Sbarro"
   },
   {
     "Id": 4,
-    "Name": "React"
+    "Name": "HD iskender"
   },
   {
     "Id": 5,
-    "Name": "Typescript"
+    "Name": "Mc Donalds"
   },
   {
     "Id": 6,
-    "Name": "Redis"
+    "Name": "Tavuk Dünyası"
   }
 ]

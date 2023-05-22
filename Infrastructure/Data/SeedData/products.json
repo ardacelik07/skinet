@@ -1,146 +1,145 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
+      "Name": "Whopper",
+      "Description": "Flame-grilled beef topped with juicy tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a soft sesame seed bun.",
+      "Price": 22,
+      "PictureUrl": "https://d3vkdqr0qjxhag.cloudfront.net/burger-king/whopper_menu_b6a1aa422b.webp",
+      "ProductTypeId": 2,
+      "ProductBrandId": 2
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
+      "Name": "King Chicken",
+      "Description": "Juicy chicken fillet, lettuce, and creamy mayo, topped with crispy onion rings on a soft sesame seed bun.",
+      "Price": 15,
+      "PictureUrl": "https://image.istanbul.net.tr/uploads/2017/10/news/burger-king-den-yepyeni-ve-doyurucu-bir-lezzet-king-fillet-chicken--770x470.jpg",
+      "ProductTypeId": 2,
+      "ProductBrandId": 2
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+      "Name": "Crispy Chicken",
+      "Description": "Juicy chicken fillet coated in crispy breading, lettuce, and creamy mayo on a soft sesame seed bun.",
+      "Price": 14,
+      "PictureUrl": "https://www.unileverfoodsolutions.lk/dam/global-ufs/mcos/meps/sri-lanka/calcmenu/recipes/LK-recipes/general/crispy-fried-chicken-burger/main-header.jpg",
+      "ProductTypeId": 2,
+      "ProductBrandId": 2
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+      "Name": "Döner",
+      "Description": "Thinly sliced, seasoned meat (beef, lamb, or chicken) cooked on a vertical rotisserie, served in a bread wrap with vegetables and sauce.",
+      "Price": 20,
+      "PictureUrl": "https://kadirlifastdoner.com/wp-content/uploads/2021/09/kadirli-fast-doner-tavuk-doner.jpg",
+      "ProductTypeId": 1,
+      "ProductBrandId": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
+      "Name": "Pilav Üstü Döner",
+      "Description": "Döner served on a bed of rice with vegetables and sauce.",
+      "Price": 25,
+      "PictureUrl": "https://www.ustadonerci.com/media/products/pilavustuet.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 1
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 5
+      "Name": "Adana Döner",
+      "Description": "Spicy ground meat (beef or lamb) skewered and grilled, served with grilled vegetables, rice, and salad.",
+      "Price": 30,
+      "PictureUrl": "https://iaftm.tmgrup.com.tr/7bc4fe/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/2022/09/27/adana-kebap-tarifi-adana-kebap-nasil-yapilir-evde-adana-kebap-malzemeleri-yapilisi-ve-puf-noktalari-1664271192268.jpeg&mw=700",
+      "ProductTypeId": 1,
+      "ProductBrandId": 1
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
+      "Name": "İskender Kebabı",
+      "Description": "Thinly sliced, seasoned meat (beef or lamb) cooked on a vertical rotisserie, served on a bed of bread cubes with tomato sauce and melted butter.",
+      "Price": 40,
+      "PictureUrl": "https://i.lezzet.com.tr/images-xxlarge-recipe/ev-yapimi-iskender-33bd7089-fa36-4398-95f8-02c6463ea27c.jpg",
+      "ProductTypeId": 1,
+      "ProductBrandId": 4
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+      "Name": "Urfa Kebabı",
+      "Description": "Spicy ground meat (beef or lamb) skewered and grilled, served with grilled vegetables, rice, and salad.",
+      "Price": 35,
+      "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLYeA7Q3NnWr0eQ9DUQ93mvJZNE8bdMaXnQ&usqp=CAU",
+      "ProductTypeId": 1,
+      "ProductBrandId": 4
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+  "Name": "Kuzu Tandır",
+  "Description": "Slow-cooked lamb served with rice, grilled vegetables, and salad.",
+  "Price": 45,
+  "PictureUrl": "https://iasbh.tmgrup.com.tr/22cb33/812/467/0/1073/1371/1863?u=https://isbh.tmgrup.com.tr/sbh/2019/05/15/1557904357554.jpg",
+  "ProductTypeId": 1,
+  "ProductBrandId": 4
+},
+  {
+      "Name": "Şefin tavası",
+      "Description": "Grilled or fried chicken wrapped in a warm tortilla with vegetables and sauce.",
+      "Price": 12,
+      "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4IwCOz-hUwCusfgYiMi7JiFTApNChsCc2w&usqp=CAU",
+      "ProductTypeId": 4,
+      "ProductBrandId": 6
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+      "Name": "kekiklim",
+      "Description": "Rice cooked with chicken, vegetables, and spices.",
+      "Price": 15,
+      "PictureUrl": "https://i.nefisyemektarifleri.com/2019/02/12/tavuk-dunyasi-kekiklim-kendinize-hayran-birakin-10.jpeg",
+      "ProductTypeId": 4,
+      "ProductBrandId": 6
   },
   {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+      "Name": "Acılı Tavuk Kanat",
+      "Description": "Spicy chicken wings served with fries and dip.",
+      "Price": 18,
+      "PictureUrl": "https://cdn.yemek.com/mncrop/940/625/uploads/2021/04/acili-kanat-ozge.jpg",
+      "ProductTypeId": 4,
+      "ProductBrandId": 6
+  },  {
+  "Name": "Pepperoni Pizza",
+  "Description": "Classic pizza topped with pepperoni slices and mozzarella cheese.",
+  "Price": 35,
+  "PictureUrl": "https://i.nefisyemektarifleri.com/2022/09/30/pepperoni-nedir-hangi-etten-nasil-yapilir-3.jpg",
+  "ProductTypeId": 3,
+  "ProductBrandId": 3
+},
+  {
+      "Name": "Margherita Pizza",
+      "Description": "Traditional pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+      "Price": 30,
+      "PictureUrl": "https://cdn.shopify.com/s/files/1/0205/9582/articles/20220211142347-margherita-9920_ba86be55-674e-4f35-8094-2067ab41a671.jpg?crop=center&height=915&v=1644590192&width=1200",
+      "ProductTypeId": 3,
+      "ProductBrandId": 3
   },
   {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
+      "Name": "vegetarian pizza",
+      "Description": "Pasta served with a rich meat sauce made with ground beef and tomato.",
+      "Price": 25,
+      "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwj6cIcdz9calxbTNwfUsOgDfSOIbZGgAjQ&usqp=CAU",
+      "ProductTypeId": 3,
+      "ProductBrandId": 3
+  }, 
+   {
+  "Name": "Big Mac",
+  "Description": "Two beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
+  "Price": 22,
+  "PictureUrl": "https://s7d1.scene7.com/is/image/mcdonalds/DC_201907_0005_BigMac_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+  "ProductTypeId": 2,
+  "ProductBrandId": 5
+},
+  {
+      "Name": "McChicken",
+      "Description": "Juicy chicken fillet breaded and fried, topped with lettuce and mayonnaise on a sesame seed bun.",
+      "Price": 15,
+      "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2XbgQwBszWAEi9y4g9em0N1V59M1Odr_DgQ&usqp=CAU",
+      "ProductTypeId": 2,
+      "ProductBrandId": 5
   },
   {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+      "Name": "McNuggets",
+      "Description": "Bite-sized pieces of tender chicken breast, breaded and fried, served with a choice of dipping sauce.",
+      "Price": 12,
+      "PictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRXYfzl4gYOGfup3N7NsAgBpQV1JH3i-E3w&usqp=CAU",
+      "ProductTypeId": 4,
+      "ProductBrandId": 5
   }
 ]

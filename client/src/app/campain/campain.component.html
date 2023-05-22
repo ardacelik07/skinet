@@ -1,0 +1,17 @@
+
+
+<div class="d-flex justify-content-center mt-5 ">
+    <h1>Kampanyalarımız</h1>
+</div>
+
+<ul class="mt-5">
+    <li *ngFor="let item of kampanyalar">
+
+       <a>
+
+        <img src="{{item.photoUrl}}"  style="height: 500px;" alt="arda">
+        <p style="text-align: center; color: black;"><strong>{{item.description}} </strong> </p>
+       </a>
+        
+    </li>
+</ul>

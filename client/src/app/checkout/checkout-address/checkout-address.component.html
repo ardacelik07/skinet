@@ -1,12 +1,7 @@
 <div class="mt-4" [formGroup]="checkoutForm">
     <div class="d-flex justify-content-between align-items-center">
-           <h4>Shipping address</h4>
-           <button  
-           (click)="saveUserAddress()" 
-           [disabled]="!checkoutForm.get('addressForm').valid  || !checkoutForm.get('addressForm').dirty"
-           class="btn btn-outline-success mb-3">
-            save as default address
-           </button>
+           <h4>Teslimat Adresi</h4>
+          
 
     </div>
     <div class="row" formGroupName="addressForm">
@@ -35,11 +30,11 @@
 <div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-4">
 
     <button class="btn btn-outline-primary" routerLink="/basket">
-   <i class="fa fa-angle-left"></i> Back to Basket
+   <i class="fa fa-angle-left"></i> baskete dön
 
     </button>
     <button class="btn btn-primary" cdkStepperNext>
-      Go to Delivery  <i class="fa fa-angle-right"></i> 
+      sipariş yöntemi seç <i class="fa fa-angle-right"></i> 
      
          </button>
 </div>

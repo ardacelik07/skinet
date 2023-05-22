@@ -3,7 +3,7 @@
       
     
         <span *ngIf="totalCount && totalCount > 0">
-          showing 
+          Gösterilen 
           <strong>
             {{(pageNumber-1) *pagesize+1}} - 
             {{pageNumber*pagesize
@@ -11,10 +11,10 @@
              ? this.totalCount
              : pageNumber*pagesize
             }}
-          </strong> of <strong>{{this.totalCount}}</strong> Results</span>
+          </strong> ürün <strong>{{this.totalCount}}</strong> Toplam ürün</span>
            <span  *ngIf="totalCount === 0">
 
-            there are <strong>0</strong> results for this filter
+            aranan kriterlerde bir ürün bulunmamaktadır.
 
            </span>
           

@@ -4,7 +4,7 @@
     <section class="col-3">
 
       <ng-container *ngIf="types && brands" >
-      <h5 class="text-warning ml-3 mt-4 mb-3">sort</h5>
+      <h5 class="text-warning ml-3 mt-4 mb-3">Filtreleme</h5>
       <select class="custom-select mb-4" (change)="onSortSelected($event.target.value)">
         <option *ngFor="let sort of sortOptions"
         [value]="sort.value"
@@ -17,7 +17,7 @@
 
 
 
-    <h5 class="text-warning ml-3">Brands</h5>
+    <h5 class="text-warning ml-3">Restorantlar</h5>
     <ul class="list-group my-3">
      <li class="list-group-item" 
      *ngFor="let brand of brands"
@@ -30,7 +30,7 @@
       {{brand.name}}
      </li>
     </ul>
-    <h5 class="text-warning ml-3">Types</h5>
+    <h5 class="text-warning ml-3">Kategoriler</h5>
     <ul class="list-group my-3">
       <li class="list-group-item" *ngFor="let type of types"
       [class.active]="type.id === this.shopParams.typeId"
@@ -58,8 +58,8 @@
            
         <div class="form-inline" *ngIf="products">
          <input (keyup.enter)="onSearch()" class="form-control mr-2" #search style="width: 300px" placeholder="Search" type="text"> 
-         <button (click)="onSearch()" class="btn btn-outline-primary my-2">Search</button>
-         <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2">Reset</button>
+         <button (click)="onSearch()" class="btn btn-outline-primary my-2">Arama</button>
+         <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2">Temizle</button>
         </div>
       </div>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">

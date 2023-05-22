@@ -5,18 +5,18 @@
         
             <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
               <div class="text-center mb-4">
-                <h1 class="h3 mb-3 fw-normal">Login</h1>
+                <h1 class="h3 mb-3 fw-normal">Giriş </h1>
               </div>
             
-           <app-text-input formControlName="email" [label]="'Email Address'"></app-text-input>
-           <app-text-input formControlName="password" [label]="'Password'" [type]="'password'"></app-text-input>
+           <app-text-input formControlName="email" [label]="'mail adresiniz'"></app-text-input>
+           <app-text-input formControlName="password" [label]="'şifre'" [type]="'password'"></app-text-input>
            <div>
-            <a [routerLink]="['/account/forgot-password']"> Forgot Password </a>
+            <a [routerLink]="['/account/şifremi-unuttum']"> şifremi unuttum </a>
           </div>
           <br>
           
              
-              <button [disabled]="loginForm.invalid" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+              <button [disabled]="loginForm.invalid" class="btn btn-lg btn-primary btn-block" type="submit">giriş yap</button>
             </form>
              
           

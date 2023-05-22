@@ -1,5 +1,5 @@
 <div class="mt-4" [formGroup]="checkoutForm">
- <h4 class="mb-3">Choose your delivery Method</h4>
+ <h4 class="mb-3">sipariş şeklini seç</h4>
 <div class="row ml-5" formGroupName="deliveryForm">
  <div class="col-6 form-group" *ngFor="let method of deliveryMethods">
 
@@ -13,7 +13,7 @@
   
     <label for="{{method.id}}" class="custom-control-label">
 
-        <strong>{{method.shortName}} - {{method.price | currency}}</strong>
+        <strong>{{method.shortName}} - {{method.price}} TL</strong>
         <br>
         <span class="label-description">{{method.description}}</span>  
        </label>
@@ -28,11 +28,11 @@
 <div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-4">
 
     <button class="btn btn-outline-primary"cdkStepperPrevious>
-   <i class="fa fa-angle-left"></i> Back to Address
+   <i class="fa fa-angle-left"></i> adrese dön
 
     </button>
     <button class="btn btn-primary" cdkStepperNext>
-      Go to Review  <i class="fa fa-angle-right"></i> 
+     incele <i class="fa fa-angle-right"></i> 
      
          </button>
 </div>

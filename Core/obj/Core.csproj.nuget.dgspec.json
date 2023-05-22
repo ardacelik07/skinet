@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj": {}
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",

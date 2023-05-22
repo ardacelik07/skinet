@@ -9,13 +9,13 @@
 </div>
 <div class="col-6">
     <h3>{{product.name}}</h3>
-    <p style="font-size: 2em">{{product.price | currency}}</p>
+    <p style="font-size: 2em">{{product.price }} TL</p>
     <div class="d-flex justify-content-start align-items-center">
 
     <i (click)="decrementQuantity()" class="fa fa-minus-circle text-warning mr-2" style="cursor:pointer;font-size: 2em;"></i>
     <span class="font-weight-bold" style="font-size: 1.5em;" >{{quantity}}</span>
     <i (click)=" incrementQuantity()" class="fa fa-plus-circle text-warning mx-2" style="cursor:pointer; font-size: 2em;"></i>
-    <button (click)="addItemToBasket()" class="btn btn-outline-primary btn-lg ml-4">add to cart</button>
+    <button (click)="addItemToBasket()" class="btn btn-outline-primary btn-lg ml-4">Sepete Ekle</button>
 
 
     </div>
@@ -25,7 +25,7 @@
 </div>
 <div class="rom mt-5">
     <div class="col 12 ml-3">
-           <h4>Description</h4>
+           <h4>Açıklama</h4>
            <p>{{product.description}}</p>
     </div>
 </div>

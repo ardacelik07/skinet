@@ -2,7 +2,7 @@
 <div class="container mt-2">
 
     <div *ngIf="(basket$ | async) === null" >
-        <p>There are no items in your basket</p>
+        <p>Basket de herhangi bir ürün bulunmamaktadır.</p>
         
     </div>
     <div *ngIf="basket$ | async">
@@ -25,7 +25,7 @@
                <div class="col-6 offset-6">
                 <app-order-totals></app-order-totals>
                 <a routerLink="/checkout" class="btn btn-outline-primary py-2 btn-block">
-                    Proceed to checkout
+                    Ödeme Yap
                 </a>
                </div>
 

@@ -12,10 +12,14 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 import { NgxSpinner, NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './core/interceptors/LoadingInterceptor';
 import { JwtInterceptor } from './core/interceptors/JWT.interceptor';
+import { CampainComponent } from './campain/campain.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CampainComponent,
+    CommentsComponent,
  
   ],
   imports: [

@@ -59,9 +59,12 @@ namespace API
              services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
             services.AddDbContext<StoreContext>(x =>
-             x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
+             x.UseNpgsql(_config.GetConnectionString("DefaultConnection")));
              services.AddDbContext<AppIdentityDbContext>(x => {
                 x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
+             });
+              services.AddDbContext<StoreContext2>(x => {
+                x.UseNpgsql(_config.GetConnectionString("DefaultConnection2"));
              });
              services.AddSingleton<IConnectionMultiplexer>( c => {
                 var Configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"), true);

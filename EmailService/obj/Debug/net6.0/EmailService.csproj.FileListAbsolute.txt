@@ -10,3 +10,15 @@ C:\Users\celik\Desktop\demo\skinet\EmailService\obj\Debug\net6.0\EmailService.dl
 C:\Users\celik\Desktop\demo\skinet\EmailService\obj\Debug\net6.0\refint\EmailService.dll
 C:\Users\celik\Desktop\demo\skinet\EmailService\obj\Debug\net6.0\EmailService.pdb
 C:\Users\celik\Desktop\demo\skinet\EmailService\obj\Debug\net6.0\ref\EmailService.dll
+C:\Users\celik\desktop\proje4\skinet\EmailService\bin\Debug\net6.0\EmailService.deps.json
+C:\Users\celik\desktop\proje4\skinet\EmailService\bin\Debug\net6.0\EmailService.dll
+C:\Users\celik\desktop\proje4\skinet\EmailService\bin\Debug\net6.0\EmailService.pdb
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.csproj.AssemblyReference.cache
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.AssemblyInfoInputs.cache
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.AssemblyInfo.cs
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.dll
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\refint\EmailService.dll
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\EmailService.pdb
+C:\Users\celik\desktop\proje4\skinet\EmailService\obj\Debug\net6.0\ref\EmailService.dll

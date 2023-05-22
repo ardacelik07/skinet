@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u9ILDjrZ8k3FrRS1GxCcEounWcmYLmmLUPai1XOJzq+EVM/qWJ3+sGghF49XuDFZ19tvPaRxVj3nrbm/Nkl4qQ==",
+  "dgSpecHash": "bMi65EUpjNqgdsD7CCkWP+43In6I6KNFMI/YNs+1QfCCy1TNkvbJDSYUYzjmos9QSef9nuoDV9k3mZhqtJAS1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\celik\\Desktop\\demo\\skinet\\EmailService\\EmailService.csproj",
+  "projectFilePath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celik\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

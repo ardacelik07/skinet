@@ -18,9 +18,9 @@ export class ShopComponent implements OnInit, AfterViewInit, OnDestroy {
 shopParams = new ShopParams();
 totalCount:number;
  sortOptions = [
-  {name: 'Alphabetical',value:'name'},
-  {name:'Price: Low to High',value: 'priceAsc'},
-  {name: 'Price: High to Low',value: 'priceDesc'}
+  {name: 'alfabetik',value:'name'},
+  {name:'Fiyat: küçükten büyüğe',value: 'priceAsc'},
+  {name: 'Fiyat: Büyükten Küçüğe',value: 'priceDesc'}
 ];
 
   constructor(private shopService: ShopService) { }
@@ -54,7 +54,7 @@ totalCount:number;
   getBrands(){
     this.shopService.getBrands().subscribe(response =>{
 
-      this.brands = [{id: 0,name: 'All'}, ...response];
+      this.brands = [{id: 0,name: 'hepsi'}, ...response];
     },error =>{
       console.log(error);
     }
@@ -63,7 +63,7 @@ totalCount:number;
   getTypes(){
     this.shopService.getTypes().subscribe(response =>{
 
-      this.types =[{id: 0,name: 'All'}, ...response]; 
+      this.types =[{id: 0,name: 'hepsi'}, ...response]; 
     },error =>{
       console.log(error);
     }

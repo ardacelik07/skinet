@@ -1,0 +1,31 @@
+<div class="d-flex justify-content-center mt-5 ">
+    <h2>işletmemiz hakkındaki yorumlar</h2>
+</div>
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-hover" style="cursor: pointer;">
+            <thead class="thead-light">
+                <tr>
+                    <th>fotoğraf</th>
+                    <th>isim</th>
+                    <th>yorum</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of comment" >
+                   
+                   <th> <img src="assets\images\219983.png" style="max-height: 40px;" alt="logo"></th>
+                    <th> {{item.name}}</th>
+                    <td>{{item.comment  }}</td>
+                
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</div>

@@ -1,18 +1,18 @@
 [
   {
     "Id": 1,
-    "Name": "Boards"
+    "Name": "Kebap"
   },
   {
     "Id": 2,
-    "Name": "Hats"
+    "Name": "Hamburger"
   },
   {
     "Id": 3,
-    "Name": "Boots"
+    "Name": "Pizza"
   },
   {
     "Id": 4,
-    "Name": "Gloves"
+    "Name": "Tavuk"
   }
 ]
