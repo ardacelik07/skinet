@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj": {
+    "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\API.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {
-                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj"
+              "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj"
               },
-              "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -243,8 +243,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj"
               }
             }
           }

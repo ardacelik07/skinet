@@ -3127,11 +3127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3148,8 +3148,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj"
+            "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj"
             }
           }
         }

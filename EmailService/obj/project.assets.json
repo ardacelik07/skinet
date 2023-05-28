@@ -403,11 +403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
+      "projectUniqueName": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj",
       "projectName": "EmailService",
-      "projectPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\EmailService.csproj",
+      "projectPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\EmailService.csproj",
       "packagesPath": "C:\\Users\\celik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\EmailService\\obj\\",
+      "outputPath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\EmailService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\celik\\AppData\\Roaming\\NuGet\\NuGet.Config",

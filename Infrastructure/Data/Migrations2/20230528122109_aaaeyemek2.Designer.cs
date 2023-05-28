@@ -8,11 +8,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Infrastructure.Data.Migrations2
 {
     [DbContext(typeof(StoreContext2))]
-    [Migration("20230514115423_CampainAdded")]
-    partial class CampainAdded
+    [Migration("20230528122109_aaaeyemek2")]
+    partial class aaaeyemek2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,6 +40,25 @@ namespace Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Campains");
+                });
+
+            modelBuilder.Entity("Core.Entities.comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comment")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("comment");
                 });
 #pragma warning restore 612, 618
         }

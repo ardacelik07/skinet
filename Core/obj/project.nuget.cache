@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PAy6ZsSL8U9HZQhN5ZHIBEEHNwYGvfqjkNGBHvw2swqKU67LT1oASx1jYANc6toyqd1oaSvmf6VulySJXai9jw==",
+  "dgSpecHash": "DnCQo4UF1MY3QfTQR5AqJNxApmPOLREB50YNKoBT4sChH4nIsTypaNd31j11wNaNvGqIB5RCBSmpLHriOuT4WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",

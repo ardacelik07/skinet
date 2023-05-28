@@ -61,7 +61,7 @@ namespace API
             services.AddDbContext<StoreContext>(x =>
              x.UseNpgsql(_config.GetConnectionString("DefaultConnection")));
              services.AddDbContext<AppIdentityDbContext>(x => {
-                x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
+                x.UseNpgsql(_config.GetConnectionString("IdentityConnection"));
              });
               services.AddDbContext<StoreContext2>(x => {
                 x.UseNpgsql(_config.GetConnectionString("DefaultConnection2"));

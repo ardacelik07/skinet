@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cORlKGkvcjDEsAMZtLbfkq7wjjFAJPg8lZpQFfbA/ndR30rt1Zd/98yz/M6cO4K9tCNfOdI+B6VFAoGtxIcRPw==",
+  "dgSpecHash": "V9N0GDE5h2hYlPZYvt+0JKuXbRMuvIh8hh9dDpVHuFFbby3R6sJ7qae9LCQIpk0kaE8OsgahHGFrkuq7CRoTWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

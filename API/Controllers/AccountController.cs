@@ -176,7 +176,7 @@ public async Task<ActionResult<ForgotPasswordDto>> ForgotPassword([FromBody] For
    return new ForgotPasswordDto {
       Email = user.Email,
       ClientURI = callback,
-      Code = number
+      token = token
 
    };
             

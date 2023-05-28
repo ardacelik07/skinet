@@ -16,6 +16,6 @@ namespace API.Dtos
     [Required]
     public string ClientURI { get; set; }
 
-    public int Code { get; set; }
+    public string token { get; set; }
     }
 }

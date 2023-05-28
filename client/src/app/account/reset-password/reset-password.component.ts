@@ -22,10 +22,11 @@ export class ResetPasswordComponent implements OnInit {
   constructor(private accountService:AccountService,private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+   
     this.resetPasswordForm = new FormGroup({
       password: new FormControl('', [Validators.required]),
       confirm: new FormControl(''),
-      
+     
 
   });
   
@@ -50,11 +51,11 @@ public resetPassword = (resetPasswordFormValue) => {
     email: this.email
    
   }
- 
+  console.log(resetPassDto);
   this.accountService.ResetPassword(resetPassDto)
   .subscribe({
     
-   
+  
      
     next:(_) => this.showSuccess = true,
     

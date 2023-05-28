@@ -3,9 +3,9 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Infrastructure.Data.Migrations2
 {
-    public partial class CampainAdded : Migration
+    public partial class aaaeyemek2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -22,12 +22,29 @@ namespace Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Campains", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "comment",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Name = table.Column<string>(type: "text", nullable: true),
+                    Comment = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_comment", x => x.Id);
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Campains");
+
+            migrationBuilder.DropTable(
+                name: "comment");
         }
     }
 }

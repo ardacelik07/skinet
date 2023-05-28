@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hSeMQ0vmgg6SLxiY4xNFaZl464s5jN6ZrjFVyav2huvMp4imcXd5iLLWe7orGTT0xQiehx++GZekbOsNAEAp5w==",
+  "dgSpecHash": "ih0KdzzmTrsRNFN/Z9Plkp6cHl0TlaQOpC5ywj5LrilWMKWjXjmZo7ZKn3I+Kw8uM8VSqa7+kEhUA9/BNDNUYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\celik\\desktop\\proje4\\skinet\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\celik\\desktop\\projeyedek\\aaaeyemek\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\celik\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\celik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
